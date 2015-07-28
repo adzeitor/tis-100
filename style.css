@@ -1,0 +1,68 @@
+body {
+    font-family: monospace;
+}
+
+.label {
+    margin-left: -10px;
+}
+
+.instructions > li {
+    list-style: none;
+}
+
+ul > pre {
+    margin: 0px;
+    display: block;
+}
+ul {
+    padding: 0px;
+    border: solid 1px black;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.registers {
+    border: solid 1px black;
+    padding: 10px;
+    margin-right: 10px;
+    height: 80px;
+}
+
+.out-port {
+    text-align :center;
+    font-size: 20px;
+}
+
+
+.wait-port {
+    text-align :center;
+    font-size: 20px;
+    color: red;
+}
+
+.controls {
+    margin-bottom: 10px;
+}
+
+.controls > button {
+    margin-left: 10px;
+}
+
+.block > textarea {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.registers > h4 {
+    margin: 0px;
+}
+
+.block > h4 {
+    margin: 0px;
+}
+
+.current {
+    color: white;
+    display: block;
+    background-color: black;
+}
